@@ -45,4 +45,4 @@ jobs:
           publish_dir: website/build
           publish_branch: gh-pages
           force_orphan: true
-          commit_message: docs: deploy built site [skip ci]
+          commit_message: 'docs: deploy built site [skip ci]'
