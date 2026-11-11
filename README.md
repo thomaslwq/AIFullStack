@@ -19,6 +19,8 @@
 | 模块 | 入口 | 内容 |
 | --- | --- | --- |
 | 导论与路线 | [docs/intro.md](docs/intro.md) · [roadmap.md](docs/roadmap.md) | 课程定位、技术栈、分阶段学习路径 |
+| 零基础起步 | [docs/bootstrap/](docs/bootstrap/env-prepare.md) | 环境准备、Vite+React+TS 初始化、Spring Boot 初始化、前后端联调跑通 |
+| AI 辅助开发 | [docs/ai-tools/](docs/ai-tools/cloudcode-guide.md) | Cloud Code、Cursor、GitHub Copilot 实操与全栈提示词模板库 |
 | 前端 React | [docs/frontend/](docs/frontend/overview.md) | JSX、组件、Props/State、Hooks、路由、状态管理、数据请求、TS |
 | 后端 Java | [docs/backend/](docs/backend/overview.md) | Java 核心、Spring Boot、持久层、JWT 鉴权、接口文档 |
 | 集成与工程化 | [docs/integration/](docs/integration/rest-contract.md) | 接口契约、CORS、构建、Docker、Nginx、CI/CD |

@@ -14,6 +14,36 @@ const sidebars = {
     },
   ],
 
+  // 零基础起步：0 到 1 搭建项目
+  bootstrapSidebar: [
+    {
+      type: 'category',
+      label: '零基础起步',
+      collapsed: false,
+      items: [
+        'bootstrap/env-prepare',
+        'bootstrap/frontend-init-vite-react',
+        'bootstrap/backend-init-springboot',
+        'bootstrap/fullstack-run-first',
+      ],
+    },
+  ],
+
+  // AI 辅助开发工具
+  aiToolsSidebar: [
+    {
+      type: 'category',
+      label: 'AI 辅助开发',
+      collapsed: false,
+      items: [
+        'ai-tools/cloudcode-guide',
+        'ai-tools/cursor-practice',
+        'ai-tools/copilot-best-practice',
+        'ai-tools/prompt-for-fullstack',
+      ],
+    },
+  ],
+
   // 前端 React
   frontendSidebar: [
     {

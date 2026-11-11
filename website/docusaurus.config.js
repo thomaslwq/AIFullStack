@@ -54,6 +54,18 @@ const config = {
         items: [
           {
             type: 'docSidebar',
+            sidebarId: 'bootstrapSidebar',
+            position: 'left',
+            label: '零基础起步',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'aiToolsSidebar',
+            position: 'left',
+            label: 'AI 辅助开发',
+          },
+          {
+            type: 'docSidebar',
             sidebarId: 'frontendSidebar',
             position: 'left',
             label: '前端 React',

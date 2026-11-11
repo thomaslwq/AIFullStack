@@ -4,6 +4,7 @@
 
 | 目录 | 对应教程 | 说明 |
 | --- | --- | --- |
+| `bootstrap-demo/` | [零基础起步](../docs/bootstrap/env-prepare.md) | 前端 Vite+React 与后端 Spring Boot 最小联调闭环 |
 | `frontend/react-hooks-demo/` | [React 速通](../docs/frontend/react-quickstart.md) · [Hooks](../docs/frontend/hooks.md) | 组件、State、自定义 Hook 的最小示例 |
 | `frontend/ai-chat-web/` | [Step 2 · 前端落地](../docs/project/step2-frontend.md) | 实战前端核心源码（请求层、鉴权 store、流式对话页） |
 | `backend/ai-chat-api/` | [Step 1 · 后端落地](../docs/project/step1-backend.md) | 实战后端核心源码（分层 Controller/Service/Repository、JWT、模型网关） |
