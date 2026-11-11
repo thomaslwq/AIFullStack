@@ -1,0 +1,99 @@
+/** @type {import('@docusaurus/plugin-content-docs').SidebarsConfig} */
+const sidebars = {
+  // 导论与路线
+  guideSidebar: [
+    {
+      type: 'doc',
+      id: 'intro',
+      label: '课程导论',
+    },
+    {
+      type: 'doc',
+      id: 'roadmap',
+      label: '学习路线图',
+    },
+  ],
+
+  // 前端 React
+  frontendSidebar: [
+    {
+      type: 'category',
+      label: '前端 React',
+      collapsed: false,
+      items: [
+        'frontend/overview',
+        'frontend/react-quickstart',
+        'frontend/hooks',
+        'frontend/routing',
+        'frontend/state-management',
+        'frontend/data-fetching',
+        'frontend/ts-react',
+      ],
+    },
+  ],
+
+  // 后端 Java
+  backendSidebar: [
+    {
+      type: 'category',
+      label: '后端 Java',
+      collapsed: false,
+      items: [
+        'backend/overview',
+        'backend/java-core',
+        'backend/spring-boot-quickstart',
+        'backend/persistence',
+        'backend/security-jwt',
+        'backend/api-doc',
+      ],
+    },
+  ],
+
+  // 前后端集成与工程化
+  integrationSidebar: [
+    {
+      type: 'category',
+      label: '集成与工程化',
+      collapsed: false,
+      items: ['integration/rest-contract', 'integration/devops'],
+    },
+  ],
+
+  // AI 集成
+  aiSidebar: [
+    {
+      type: 'category',
+      label: 'AI 集成',
+      collapsed: false,
+      items: [
+        'ai/overview',
+        'ai/llm-api',
+        'ai/rag',
+        'ai/streaming',
+        'ai/agent',
+      ],
+    },
+  ],
+
+  // 实战项目
+  projectSidebar: [
+    {
+      type: 'category',
+      label: '实战项目：AI 对话应用',
+      collapsed: false,
+      items: ['project/overview', 'project/step1-backend', 'project/step2-frontend'],
+    },
+  ],
+
+  // 附录
+  appendixSidebar: [
+    {
+      type: 'category',
+      label: '附录',
+      collapsed: false,
+      items: ['appendix/commands', 'appendix/faq'],
+    },
+  ],
+};
+
+export default sidebars;

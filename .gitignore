@@ -1,0 +1,17 @@
+# Node / Docusaurus
+node_modules/
+website/build/
+website/.docusaurus/
+website/.cache-loader/
+
+# Examples build outputs
+examples/**/node_modules/
+examples/**/target/
+examples/**/dist/
+examples/**/.mvn/wrapper/*.jar
+
+# OS / IDE
+.DS_Store
+.idea/
+.vscode/
+*.log
