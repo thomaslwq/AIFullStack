@@ -79,6 +79,24 @@ const sidebars = {
     },
   ],
 
+  // MyBatis 持久层（含 MyBatis-Plus 扩展）
+  mybatisSidebar: [
+    {
+      type: 'category',
+      label: 'MyBatis 持久层',
+      collapsed: false,
+      items: [
+        'mybatis/overview',
+        'mybatis/datasource-config',
+        'mybatis/crud-xml',
+        'mybatis/annotation',
+        'mybatis/pagination',
+        'mybatis/plus-extension',
+        'mybatis/react-integration',
+      ],
+    },
+  ],
+
   // 前后端集成与工程化
   integrationSidebar: [
     {

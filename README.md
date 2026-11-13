@@ -23,6 +23,7 @@
 | AI 辅助开发 | [docs/ai-tools/](docs/ai-tools/cloudcode-guide.md) | Cloud Code、Cursor、GitHub Copilot 实操与全栈提示词模板库 |
 | 前端 React | [docs/frontend/](docs/frontend/overview.md) | JSX、组件、Props/State、Hooks、路由、状态管理、数据请求、TS |
 | 后端 Java | [docs/backend/](docs/backend/overview.md) | Java 核心、Spring Boot、持久层、JWT 鉴权、接口文档 |
+| MyBatis 持久层 | [docs/mybatis/](docs/mybatis/overview.md) | XML/注解 CRUD、分页、MyBatis-Plus 通用 CRUD 与条件构造器、React 联调 |
 | 集成与工程化 | [docs/integration/](docs/integration/rest-contract.md) | 接口契约、CORS、构建、Docker、Nginx、CI/CD |
 | AI 集成 | [docs/ai/](docs/ai/overview.md) | 模型 API、Prompt、RAG、SSE 流式、Agent |
 | 实战项目 | [docs/project/](docs/project/overview.md) | 贯穿全栈的 AI 对话应用：后端落地 → 前端落地 |

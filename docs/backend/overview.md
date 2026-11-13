@@ -20,7 +20,7 @@ flowchart TD
 
 - **Controller**：接收请求、校验参数、调用 Service、返回统一响应；
 - **Service**：承载业务逻辑与事务边界；
-- **Mapper/Repository**：封装数据库访问；
+- **Mapper/Repository**：封装数据库访问；JPA 视角见[持久层章节](./persistence.md)，手写 SQL 的 MyBatis 与 MyBatis-Plus 路线见 [MyBatis 模块](../mybatis/overview.md)；
 - 跨层只传递 DTO/领域对象，不在层间暴露实体细节。
 
 ## 章节顺序

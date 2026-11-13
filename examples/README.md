@@ -8,6 +8,7 @@
 | `frontend/react-hooks-demo/` | [React 速通](../docs/frontend/react-quickstart.md) · [Hooks](../docs/frontend/hooks.md) | 组件、State、自定义 Hook 的最小示例 |
 | `frontend/ai-chat-web/` | [Step 2 · 前端落地](../docs/project/step2-frontend.md) | 实战前端核心源码（请求层、鉴权 store、流式对话页） |
 | `backend/ai-chat-api/` | [Step 1 · 后端落地](../docs/project/step1-backend.md) | 实战后端核心源码（分层 Controller/Service/Repository、JWT、模型网关） |
+| `mybatis-demo/` | [MyBatis 持久层](../docs/mybatis/overview.md) | MyBatis XML + MyBatis-Plus 通用 CRUD、分页、条件查询与 React 联调页面 |
 
 ## 使用方式
 

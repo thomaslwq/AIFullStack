@@ -15,7 +15,8 @@ slug: /roadmap
 flowchart TD
     S0[阶段 0 · 环境与 0 到 1 搭建] --> S1[阶段 1 · 前端 React]
     S1 --> S2[阶段 2 · 后端 Java]
-    S2 --> S3[阶段 3 · 前后端集成]
+    S2 --> MB[持久层 · MyBatis / MyBatis-Plus]
+    MB --> S3[阶段 3 · 前后端集成]
     S3 --> S4[阶段 4 · AI 集成]
     S4 --> S5[阶段 5 · 实战项目贯通]
     T[AI 辅助开发工具<br/>Cloud Code · Cursor · Copilot · 提示词] -.贯穿各阶段提效.-> S1
@@ -31,6 +32,7 @@ flowchart TD
 | 辅助 | AI 辅助开发 | Cloud Code 容器环境、Cursor、Copilot、全栈提示词模板 | 用 AI 工具提效生成并审查前后端代码 |
 | 1 | 前端 React | JSX、组件、Props、State、Hooks、路由、状态管理、数据请求、TS | 一个多页面 React + TS 演示应用 |
 | 2 | 后端 Java | Java 核心、Spring Boot、REST、持久层、JWT 鉴权、接口文档 | 一套带鉴权与数据库的 REST 服务 |
+| 2.5 | MyBatis 持久层 | XML/注解 CRUD、分页、MyBatis-Plus 通用 CRUD 与条件构造器、React 联调 | 用户管理分页接口 + 前端列表页面 |
 | 3 | 集成与工程化 | 接口契约、CORS、统一错误处理、Vite/Docker/Nginx、CI/CD | 前后端联调跑通，镜像可容器化部署 |
 | 4 | AI 集成 | 模型 API、Prompt、RAG、SSE 流式、Agent 工具调用 | 后端 AI 网关 + 前端流式对话原型 |
 | 5 | 实战项目 | AI 对话应用全流程：架构 → 后端 → 前端 → 部署 | 完整可部署的全栈 AI 应用 |

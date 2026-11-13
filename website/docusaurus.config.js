@@ -78,6 +78,12 @@ const config = {
           },
           {
             type: 'docSidebar',
+            sidebarId: 'mybatisSidebar',
+            position: 'left',
+            label: 'MyBatis',
+          },
+          {
+            type: 'docSidebar',
             sidebarId: 'aiSidebar',
             position: 'left',
             label: 'AI 集成',
