@@ -95,6 +95,12 @@ const config = {
             label: '实战项目',
           },
           {
+            type: 'docSidebar',
+            sidebarId: 'mangaSidebar',
+            position: 'left',
+            label: 'AI 漫剧',
+          },
+          {
             href: 'https://github.com/thomaslwq/AIFullStack',
             label: 'GitHub',
             position: 'right',

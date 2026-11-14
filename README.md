@@ -27,6 +27,7 @@
 | 集成与工程化 | [docs/integration/](docs/integration/rest-contract.md) | 接口契约、CORS、构建、Docker、Nginx、CI/CD |
 | AI 集成 | [docs/ai/](docs/ai/overview.md) | 模型 API、Prompt、RAG、SSE 流式、Agent |
 | 实战项目 | [docs/project/](docs/project/overview.md) | 贯穿全栈的 AI 对话应用：后端落地 → 前端落地 |
+| AI 漫剧 | [docs/manga/](docs/manga/overview.md) | 剧情向科普漫剧：角色对话 + 分镜漫画 + 知识点卡片，配套原文教程 |
 | 附录 | [docs/appendix/](docs/appendix/commands.md) | 命令速查、写作规范、FAQ |
 
 配套源码见 [`examples/`](examples/README.md)。

@@ -133,6 +133,19 @@ const sidebars = {
     },
   ],
 
+  // AI 漫剧系列
+  mangaSidebar: [
+    {
+      type: 'category',
+      label: 'AI 漫剧系列',
+      collapsed: false,
+      items: [
+        'manga/overview',
+        'manga/episodes/ep01-init-project/index',
+      ],
+    },
+  ],
+
   // 附录
   appendixSidebar: [
     {
