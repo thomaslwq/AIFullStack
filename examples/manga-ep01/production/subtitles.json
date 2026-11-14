@@ -1,0 +1,14 @@
+[
+  { "start_time": 0.3, "end_time": 2.4, "subtitle_text": "阿乐：我想做一套前后端项目，不知道从哪里下手……" },
+  { "start_time": 2.7, "end_time": 4.7, "subtitle_text": "文哥：别慌，我们一步一步从零搭建。" },
+  { "start_time": 5.3, "end_time": 7.6, "subtitle_text": "文哥：后端先用 Spring Boot，引入 Web、MyBatis、MySQL 依赖。" },
+  { "start_time": 7.9, "end_time": 9.7, "subtitle_text": "阿乐：原来不是自己手写所有文件！" },
+  { "start_time": 10.3, "end_time": 12.8, "subtitle_text": "文哥：Cursor、Cloud Code 这类 AI 工具可以帮我们生成基础配置与实体类。" },
+  { "start_time": 13.1, "end_time": 14.7, "subtitle_text": "阿乐：哇，AI 直接帮我写实体和样板代码？" },
+  { "start_time": 15.3, "end_time": 17.4, "subtitle_text": "文哥：前端用 Vite 创建 React 项目，比老的脚手架更快。" },
+  { "start_time": 17.7, "end_time": 19.7, "subtitle_text": "阿乐：前后端是分成两个项目存放吗？" },
+  { "start_time": 20.3, "end_time": 22.3, "subtitle_text": "阿乐：接口访问失败！这个跨域报错是什么？" },
+  { "start_time": 22.6, "end_time": 24.7, "subtitle_text": "文哥：这是新手最高频的坑，后端加一段 CORS 跨域配置就能解决。" },
+  { "start_time": 25.3, "end_time": 27.3, "subtitle_text": "文哥：前后端打通！接下来我们学习 MyBatis 数据库操作。" },
+  { "start_time": 27.6, "end_time": 29.6, "subtitle_text": "阿乐：期待下一集 MyBatis！" }
+]

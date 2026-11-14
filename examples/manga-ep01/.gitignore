@@ -1,0 +1,4 @@
+# 中间生成素材（可由 production/母版.md 与 prompts.md 复现），不入库
+frames/
+segments/
+production/concat.mp4
