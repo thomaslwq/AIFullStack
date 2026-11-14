@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkaifullstack_website=self.webpackChunkaifullstack_website||[]).push([[7089],{7089(e,s,c){c.d(s,{createArchitectureServices:()=>t.S});var t=c(5796);c(4954)}}]);
