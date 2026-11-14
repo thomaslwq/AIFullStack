@@ -26,7 +26,8 @@ sidebar_position: 1
 
 | 集数 | 标题 | 配套教程 | 状态 |
 | --- | --- | --- | --- |
-| EP01 | [0 到 1 搭建 Java + React 全栈项目](./episodes/ep01-init-project/index.md) | [前后端联调跑通](../bootstrap/fullstack-run-first.md) | 已上线（占位分镜图，待替换 AI 漫画） |
+| EP01 | [0 到 1 搭建 Java + React 全栈项目](./episodes/ep01-init-project/index.md) | [前后端联调跑通](../bootstrap/fullstack-run-first.md) | 已上线（真人写实版） |
+| Demo | [AI 帮我改了一行代码，我准时下班了](./episodes/demo-lin-ke-bug/index.md) | 固定女主林可 · 写实竖屏动态漫样板（含专属配音） | 已上线 |
 
 ## 制作流程（新增一集）
 

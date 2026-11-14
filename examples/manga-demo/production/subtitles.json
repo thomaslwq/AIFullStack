@@ -1,0 +1,26 @@
+[
+  {
+    "index": 1,
+    "start_time": "0.0",
+    "end_time": "5.0",
+    "subtitle_text": "啊，这个 Bug 卡好久了。"
+  },
+  {
+    "index": 2,
+    "start_time": "5.0",
+    "end_time": "10.0",
+    "subtitle_text": "试试判空，这里少了 null 校验。"
+  },
+  {
+    "index": 3,
+    "start_time": "10.0",
+    "end_time": "15.0",
+    "subtitle_text": "原来是这里漏了判断。"
+  },
+  {
+    "index": 4,
+    "start_time": "15.0",
+    "end_time": "20.0",
+    "subtitle_text": "搞定！今天可以准时下班啦。"
+  }
+]

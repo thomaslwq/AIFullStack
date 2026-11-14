@@ -142,6 +142,7 @@ const sidebars = {
       items: [
         'manga/overview',
         'manga/episodes/ep01-init-project/index',
+        'manga/episodes/demo-lin-ke-bug/index',
       ],
     },
   ],
