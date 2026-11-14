@@ -1,0 +1,39 @@
+{
+  "skill": "ai-coding-manga-generator",
+  "slug": "{{slug}}",
+  "character": {
+    "name": "{{characterName}}",
+    "description": "<完整人设描述：年龄、脸型、眉眼、发型、服装、鞋、气质；作为每条生图 prompt 的强制前缀>",
+    "lockedTraits": ["脸部特征", "发型发色", "服装鞋履", "肤色", "场景基调"]
+  },
+  "voice": {
+    "provider": "edge-tts",
+    "voice": "{{voice}}",
+    "rate": "{{voiceRate}}",
+    "note": "音色跨集锁定；后续如有声音克隆能力可替换克隆音色，人设描述与台词不变"
+  },
+  "style": "<全局画风后缀：都市写实摄影、办公室柔和柔光、浅景深、真实皮肤与面料质感、电影感竖屏>",
+  "episode": {
+    "title": "{{title}}",
+    "durationPerSegment": 5,
+    "ratio": "9:16",
+    "segments": [
+      {
+        "index": 1,
+        "start_time": "0.00",
+        "end_time": "5.04",
+        "scene": "<画面要点>",
+        "action": "<动作与表情>",
+        "line": "<台词>"
+      },
+      {
+        "index": 2,
+        "start_time": "5.04",
+        "end_time": "10.08",
+        "scene": "<画面要点>",
+        "action": "<动作与表情>",
+        "line": "<台词>"
+      }
+    ]
+  }
+}

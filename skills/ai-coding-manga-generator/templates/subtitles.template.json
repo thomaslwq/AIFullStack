@@ -1,0 +1,26 @@
+[
+  {
+    "index": 1,
+    "start_time": "0.00",
+    "end_time": "5.04",
+    "subtitle_text": "<第一句台词>"
+  },
+  {
+    "index": 2,
+    "start_time": "5.04",
+    "end_time": "10.08",
+    "subtitle_text": "<第二句台词>"
+  },
+  {
+    "index": 3,
+    "start_time": "10.08",
+    "end_time": "15.12",
+    "subtitle_text": "<第三句台词>"
+  },
+  {
+    "index": 4,
+    "start_time": "15.12",
+    "end_time": "20.17",
+    "subtitle_text": "<第四句台词>"
+  }
+]
