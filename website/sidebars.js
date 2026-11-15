@@ -143,6 +143,7 @@ const sidebars = {
         'manga/overview',
         'manga/episodes/ep01-init-project/index',
         'manga/episodes/demo-lin-ke-bug/index',
+        'manga/episodes/verify-mybatis-camelcase/index',
       ],
     },
   ],

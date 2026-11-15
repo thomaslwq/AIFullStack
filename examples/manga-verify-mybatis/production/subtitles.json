@@ -1,0 +1,30 @@
+[
+  {
+    "index": 1,
+    "start_time": "0.00",
+    "end_time": "5.04",
+    "speaker": "林可",
+    "subtitle_text": "奇怪，SQL 执行成功，怎么查不到数据？"
+  },
+  {
+    "index": 2,
+    "start_time": "5.04",
+    "end_time": "10.08",
+    "speaker": "文哥",
+    "subtitle_text": "你看看数据库字段和实体类属性名，是不是没对上？"
+  },
+  {
+    "index": 3,
+    "start_time": "10.08",
+    "end_time": "15.12",
+    "speaker": "林可",
+    "subtitle_text": "哦！下划线和驼峰没开启自动转换！"
+  },
+  {
+    "index": 4,
+    "start_time": "15.12",
+    "end_time": "20.17",
+    "speaker": "文哥",
+    "subtitle_text": "MyBatis-Plus 可以一键开启这个配置。"
+  }
+]

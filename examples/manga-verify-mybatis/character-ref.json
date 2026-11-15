@@ -1,0 +1,72 @@
+{
+  "skill": "ai-coding-manga-generator",
+  "slug": "verify-mybatis",
+  "characters": [
+    {
+      "name": "林可",
+      "role": "female_lead",
+      "description": "24 岁中国女生，鹅蛋脸、细长眉眼、淡妆、眼神灵动自信；长柔顺黑色直发披肩；白色修身衬衫，黑色高腰西装短裙，简约黑色低跟鞋；专业程序员气质，不浮夸；脸部特征全程锁定，同一张脸，发型不变，服装不变，肤色一致。",
+      "voice": {
+        "provider": "edge-tts",
+        "voice": "zh-CN-XiaoxiaoNeural",
+        "rate": "+6%",
+        "profile": "年轻灵动，甜度适中不腻，松弛日常聊天感，语速中等，情绪可变化（疑惑→豁然开朗→轻松），不是播音腔"
+      }
+    },
+    {
+      "name": "文哥",
+      "role": "male_lead",
+      "description": "28 岁后端工程师，短发，细框眼镜，浅灰 Polo 衫，气质沉稳耐心；写实真人，同办公室光影；脸部特征全程锁定，同一张脸，发型不变，服装不变，肤色一致。",
+      "voice": {
+        "provider": "edge-tts",
+        "voice": "zh-CN-YunyangNeural",
+        "rate": "+0%",
+        "profile": "低沉温和男声，语速平稳稳重，资深同事感，讲解柔和，没有说教感"
+      }
+    }
+  ],
+  "style": "都市写实摄影，现代互联网办公室，柔和冷暖混合柔光，浅景深，4K 高清，皮肤与面料质感真实，肢体自然，电影感竖屏",
+  "episode": {
+    "title": "MyBatis 踩坑：为什么查不到数据？",
+    "durationPerSegment": 5,
+    "ratio": "9:16",
+    "segments": [
+      {
+        "index": 1,
+        "start_time": "0.00",
+        "end_time": "5.04",
+        "speaker": "林可",
+        "scene": "工位全景：林可坐在电脑前，眉头微蹙，转头看向旁边的文哥，手指轻点 IDEA 屏幕上的 MyBatis 查询代码，眼神带着疑惑。",
+        "action": "侧头看向文哥，手指轻点屏幕，疑惑询问",
+        "line": "奇怪，SQL 执行成功，怎么查不到数据？"
+      },
+      {
+        "index": 2,
+        "start_time": "5.04",
+        "end_time": "10.08",
+        "speaker": "文哥",
+        "scene": "工位全景：文哥俯身凑近屏幕，目光落在代码上，抬手指向 XML 映射块，耐心看向林可讲解。",
+        "action": "俯身看屏幕，手指指向映射字段，耐心讲解",
+        "line": "你看看数据库字段和实体类属性名，是不是没对上？"
+      },
+      {
+        "index": 3,
+        "start_time": "10.08",
+        "end_time": "15.12",
+        "speaker": "林可",
+        "scene": "屏幕特写：IDE 特写，XML 的 column 与 property 命名不一致；林可的手在画面边缘，恍然大悟，轻轻拍了下桌面。",
+        "action": "盯着屏幕，恍然大悟，轻拍桌面",
+        "line": "哦！下划线和驼峰没开启自动转换！"
+      },
+      {
+        "index": 4,
+        "start_time": "15.12",
+        "end_time": "20.17",
+        "speaker": "文哥",
+        "scene": "工位全景：切回双人画面，林可快速修改配置，改完抬头看向文哥，露出轻松微笑。",
+        "action": "敲完代码，抬头与文哥对视微笑",
+        "line": "MyBatis-Plus 可以一键开启这个配置。"
+      }
+    ]
+  }
+}
