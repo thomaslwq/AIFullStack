@@ -1,0 +1,33 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+* { margin:0; padding:0; box-sizing:border-box; }
+body { width:720px; height:1280px; background:#1f2430; color:#e5e9f0;
+ font-family:'Noto Sans Mono','Noto Sans CJK SC',monospace;
+ display:flex; flex-direction:column; }
+.titlebar { height:72px; background:#2b3140; display:flex; align-items:center; padding:0 28px; }
+.dot { width:12px; height:12px; border-radius:50%; margin-right:9px; }
+.r { background:#e06c75; } .y { background:#e5c07b; } .g { background:#98c379; }
+.filename { margin-left:14px; font-size:22px; color:#c8d0dc; }
+.code { padding:40px 34px 0; font-size:24px; line-height:2.05; white-space:pre-wrap; }
+.hl { background:#3a3527; border-left:4px solid #e5c07b; padding:0 12px; margin:0 -12px; display:block; }
+.tag { color:#c678dd; } .str { color:#98c379; } .attr { color:#61afef; }
+.cmt { color:#5c6370; } .kw { color:#d19a66; } .plain { color:#e5e9f0; }
+.note { margin:30px 34px; padding:18px 22px; background:#263040; border-radius:12px;
+ font-size:22px; line-height:1.6; color:#e5e9f0; }
+.note b { color:#e5c07b; }
+.cols { display:flex; gap:24px; padding:34px; }
+.col { flex:1; }
+.col h3 { font-size:20px; color:#c8d0dc; margin-bottom:16px; }
+.col pre { font-size:22px; line-height:2.0; white-space:pre-wrap; }
+.gap { flex:1; }
+</style></head><body>
+<div class="titlebar"><span class="dot r"></span><span class="dot y"></span><span class="dot g"></span>
+<span class="filename">UserMapper.xml</span></div>
+<div class="code"><span class="tag">&lt;resultMap</span> <span class="attr">id</span>=<span class="str">"userMap"</span> <span class="attr">type</span>=<span class="str">"User"</span><span class="tag">&gt;</span>
+    <span class="tag">&lt;id</span>     <span class="attr">column</span>=<span class="str">"id"</span>        <span class="attr">property</span>=<span class="str">"id"</span><span class="tag">/&gt;</span>
+    <span class="tag">&lt;result</span> <span class="attr">column</span>=<span class="str">"username"</span>  <span class="attr">property</span>=<span class="str">"username"</span><span class="tag">/&gt;</span>
+    <span class="tag">&lt;result</span> <span class="attr">column</span>=<span class="str">"email"</span>     <span class="attr">property</span>=<span class="str">"email"</span><span class="tag">/&gt;</span>
+<span class="hl">    <span class="tag">&lt;result</span> <span class="attr">column</span>=<span class="str">"create_time"</span> <span class="attr">property</span>=<span class="str">"createTime"</span><span class="tag">/&gt;</span></span>
+<span class="tag">&lt;/resultMap&gt;</span></div>
+<div class="note">下划线字段 <b>create_time</b>　↔　驼峰属性 <b>createTime</b>，命名对不上就封装不到对象里。</div>
+<div class="gap"></div>
+</body></html>

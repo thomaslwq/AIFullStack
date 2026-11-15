@@ -1,0 +1,37 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+* { margin:0; padding:0; box-sizing:border-box; }
+body { width:720px; height:1280px; background:#1f2430; color:#e5e9f0;
+ font-family:'Noto Sans Mono','Noto Sans CJK SC',monospace;
+ display:flex; flex-direction:column; }
+.titlebar { height:72px; background:#2b3140; display:flex; align-items:center; padding:0 28px; }
+.dot { width:12px; height:12px; border-radius:50%; margin-right:9px; }
+.r { background:#e06c75; } .y { background:#e5c07b; } .g { background:#98c379; }
+.filename { margin-left:14px; font-size:22px; color:#c8d0dc; }
+.code { padding:40px 34px 0; font-size:24px; line-height:2.05; white-space:pre-wrap; }
+.hl { background:#3a3527; border-left:4px solid #e5c07b; padding:0 12px; margin:0 -12px; display:block; }
+.tag { color:#c678dd; } .str { color:#98c379; } .attr { color:#61afef; }
+.cmt { color:#5c6370; } .kw { color:#d19a66; } .plain { color:#e5e9f0; }
+.note { margin:30px 34px; padding:18px 22px; background:#263040; border-radius:12px;
+ font-size:22px; line-height:1.6; color:#e5e9f0; }
+.note b { color:#e5c07b; }
+.cols { display:flex; gap:24px; padding:34px; }
+.col { flex:1; }
+.col h3 { font-size:20px; color:#c8d0dc; margin-bottom:16px; }
+.col pre { font-size:22px; line-height:2.0; white-space:pre-wrap; }
+.gap { flex:1; }
+</style></head><body>
+<div class="titlebar"><span class="dot r"></span><span class="dot y"></span><span class="dot g"></span>
+<span class="filename">user 表　↔　User.java</span></div>
+<div class="cols">
+<div class="col"><h3>数据库字段（下划线）</h3><pre><span class="plain">id</span>
+<span class="plain">username</span>
+<span class="plain">email</span>
+<span class="kw">create_time</span></pre></div>
+<div class="col"><h3>实体类属性（驼峰）</h3><pre><span class="plain">Integer id</span>
+<span class="plain">String username</span>
+<span class="plain">String email</span>
+<span class="kw">LocalDateTime createTime</span></pre></div>
+</div>
+<div class="note">未开启自动转换时，<b>create_time</b> 映射不到 <b>createTime</b>，查出来的字段就是 <b>null</b>。</div>
+<div class="gap"></div>
+</body></html>

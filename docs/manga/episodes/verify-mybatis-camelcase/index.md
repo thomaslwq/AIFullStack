@@ -1,13 +1,13 @@
 ---
 title: "双人小样 · MyBatis 踩坑：为什么查不到数据？"
 sidebar_label: "双人小样 MyBatis 驼峰"
-description: "双人互动写实竖屏动态漫：林可与文哥工位来回对白，排查 MyBatis 下划线与驼峰命名不一致，含双角色专属配音与字幕"
+description: "旁白驱动的双人写实竖屏知识短片：林可与文哥排查 MyBatis 下划线与驼峰命名不一致，台词为画外音，配真实代码卡片、双角色专属配音与字幕"
 ---
 
 import Link from '@docusaurus/Link';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-> 🎬 本页为双人互动写实竖屏动态漫验证小样：固定女主林可 + 固定男工程师文哥，双角色专属配音，双人工位全景与屏幕特写多场景切换。
+> 🎬 本页为双人知识教程验证小样：固定女主林可 + 固定男工程师文哥；台词走旁白画外音、人物不开口；代码特写为本地渲染的真实代码卡片，规避 AI 假屏幕与口型错位。
 
 ## 🎬 动态漫视频（竖屏 9:16，约 20 秒）
 
@@ -27,17 +27,17 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 </div>
 
 <div>
-  <img src={require('./assets/02.jpg').default} alt="分镜 2：文哥俯身指向 XML 映射讲解" />
+  <img src={require('./assets/card1.jpg').default} alt="代码卡片：UserMapper.xml 中下划线字段与驼峰属性映射" />
   <p><b>文哥：</b>你看看数据库字段和实体类属性名，是不是没对上？</p>
 </div>
 
 <div>
-  <img src={require('./assets/03.jpg').default} alt="分镜 3：屏幕特写命名不一致，林可恍然大悟" />
+  <img src={require('./assets/card2.jpg').default} alt="代码卡片：数据库下划线字段与实体驼峰属性对比" />
   <p><b>林可：</b>哦！下划线和驼峰没开启自动转换！</p>
 </div>
 
 <div>
-  <img src={require('./assets/04.jpg').default} alt="分镜 4：双人对视微笑收尾" />
+  <img src={require('./assets/card3.jpg').default} alt="代码卡片：application.yml 开启下划线驼峰自动转换" />
   <p><b>文哥：</b>MyBatis-Plus 可以一键开启这个配置。</p>
 </div>
 
@@ -45,16 +45,16 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ## 小样要点
 
-- ✅ 双人互动：林可（女主）与文哥（男工程师）工位来回对白，转头、俯身、指屏、对视等自然动作
-- ✅ 双角色专属配音：林可 XiaoxiaoNeural，文哥 YunyangNeural，后期对齐台词
-- ✅ 多场景切换：双人工位全景与 IDE / XML 屏幕特写交替，避免纯静帧推镜
-- ✅ 跨镜头人设锁定：两人的脸部、发型、服装、肤色在所有片段间保持一致
-- ✅ 剧情节拍：冲突（查不到数据）→ 求助（文哥提示核对映射）→ 解决（发现驼峰未转换）→ 收尾（MyBatis-Plus 配置）
+- ✅ 旁白驱动：台词为画外音，人物不开口，从范式上规避口型与音画错位
+- ✅ 真实代码画面：本地渲染 IDE 风格代码卡片，代码取自仓库真实 MyBatis 源码，无 AI 乱码
+- ✅ 双角色专属配音：林可 XiaoxiaoNeural，文哥 YunyangNeural，后期对齐字幕
+- ✅ 空间一致：人物仅固定机位氛围出镜，无走动换位，避免跨镜头瞬移
+- ✅ 剧情节拍：冲突（查不到数据）→ 求助（核对映射）→ 发现（驼峰未转换）→ 解决（MP 配置）
 
 ## 制作说明
 
-- 首帧由文生图逐镜生成，双角色人设描述作为强制前缀保证跨帧一致；
-- 每段 5 秒图生视频，动作以自然转头、俯身、指屏、对视为主；
-- 配音与字幕在本地后期对齐合成，成片 720×1280、H.264 + AAC、9:16。
+- 人物氛围图复用固定人设首帧；代码卡片由本地 HTML + 浏览器渲染，保证代码文字准确可读；
+- 配音与字幕在本地后期对齐合成，成片 720×1280、H.264 + AAC、9:16；
+- 不使用文生视频承担人物表演，口型、空间漂移等 AI 视频问题由范式规避。
 
 <Link to="/docs/manga/overview">← 返回漫剧系列目录</Link>
