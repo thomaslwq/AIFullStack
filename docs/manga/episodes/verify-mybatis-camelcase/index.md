@@ -22,7 +22,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 <div style={{ display: 'grid', gap: '24px', maxWidth: '760px', margin: '24px auto 0' }}>
 
 <div>
-  <img src={require('./assets/01.jpg').default} alt="分镜 1：林可疑惑转头向文哥求助" />
+  <img src={require('./assets/opening.jpg').default} alt="开场：问题标题卡为主画面，右下角双人小窗" />
   <p><b>林可：</b>奇怪，SQL 执行成功，怎么查不到数据？</p>
 </div>
 
@@ -49,7 +49,8 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 - ✅ 真实代码画面：本地渲染 IDE 风格代码卡片，代码取自仓库真实 MyBatis 源码，无 AI 乱码
 - ✅ 双角色专属配音：林可 XiaoxiaoNeural，文哥 YunyangNeural，后期对齐字幕
 - ✅ 空间一致：人物仅固定机位氛围出镜，无走动换位，避免跨镜头瞬移
-- ✅ 克制动效：人物缓慢推镜；重点行淡入高亮、关键词下划线逐段展开，高亮出现时配轻提示音
+- ✅ 开场布局：问题标题卡为主画面，双人以圆角小窗置于右下角，避免全屏静帧特写的 AI 感
+- ✅ 克制动效：小窗滑入淡入并缓慢推镜；重点行淡入高亮、关键词下划线逐段展开，高亮出现时配轻提示音
 - ✅ 剧情节拍：冲突（查不到数据）→ 求助（核对映射）→ 发现（驼峰未转换）→ 解决（MP 配置）
 
 ## 制作说明
